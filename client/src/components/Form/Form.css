@@ -1,0 +1,75 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 4em auto;
+}
+.form label {
+  margin-left: 0.2em;
+  margin-bottom: 0.2em;
+  opacity: 50%;
+}
+
+.input {
+  font-size: 2em;
+  padding: 0.2em;
+  border: solid 1px rgba(0, 0, 0, 0.227);
+  border-radius: 5px;
+  margin-bottom: 0.2em;
+}
+
+.input:focus {
+  outline: dotted;
+  border: transparent;
+  outline-color: #AB6681;
+}
+
+.error {
+  color: red;
+  margin: 0;
+}
+
+.submit {
+  border-radius: 20px;
+  font-size: 1.5em;
+  width: 5em;
+  margin: 0.2em auto;
+  height: 2em;
+  background: #AB6681;
+  border: 2px solid #AB6681;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.submit:hover {
+  color: #AB6681;
+  background: #fff;
+  border: 2px solid #AB6681;
+}
+
+.invalid {
+  background: rgb(129, 107, 114);
+  color: white;
+  cursor: not-allowed;
+  border: #fff;
+}
+
+.invalid:hover {
+  border: #fff;
+  background: rgb(129, 107, 114);
+  color: white;
+}
+
+.alreadyEx {
+  text-align: center;
+}
+
+.link {
+  color: #AB6681;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:active {
+  color: #412831;
+}/*# sourceMappingURL=Form.css.map */
